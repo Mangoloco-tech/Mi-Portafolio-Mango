@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional personal.">
+  <title>Tu Nombre — Portafolio profesional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio">TN<span>.</span></a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">◐</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">PORTAFOLIO PROFESIONAL · ESPAÑA</p>
+        <h1>Hola, soy <span>Tu Nombre</span>.</h1>
+        <p class="hero-role">Profesional orientado a crear soluciones útiles, claras y con impacto.</p>
+        <p class="hero-text">
+          Este espacio reúne mi trayectoria, proyectos y capacidades. Sustituye este texto
+          por una propuesta de valor que explique en una frase qué haces y qué problema ayudas a resolver.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#proyectos">Ver proyectos</a>
+          <a class="button secondary" href="#contacto">Hablemos →</a>
+        </div>
+      </div>
+      <aside class="hero-card reveal">
+        <div class="status"><span></span> Disponible para oportunidades</div>
+        <div class="profile-placeholder">TN</div>
+        <p>Tu especialidad / cargo</p>
+        <small>Las Palmas de Gran Canaria · España</small>
+      </aside>
+    </section>
+
+    <section id="sobre-mi" class="section container">
+      <div class="section-heading reveal">
+        <span>01</span>
+        <h2>Sobre mí</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-lead reveal">
+          <p>Construyo mi perfil profesional alrededor de la <strong>curiosidad, la capacidad de aprendizaje y la orientación a resultados</strong>.</p>
+        </div>
+        <div class="about-copy reveal">
+          <p>Aquí debe ir una descripción auténtica de tu recorrido: quién eres profesionalmente, qué te diferencia, qué tipo de problemas te gusta resolver y hacia dónde quieres crecer.</p>
+          <p>Procura que esta sección responda rápidamente a tres preguntas: <strong>qué haces, cómo trabajas y qué valor aportas</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>02</span>
+          <h2>Experiencia</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">202X — ACTUALIDAD</div>
+            <div>
+              <h3>Tu puesto / responsabilidad</h3>
+              <p class="company">Empresa / organización</p>
+              <p>Describe brevemente tus responsabilidades y, sobre todo, los resultados conseguidos. Añade métricas cuando sea posible.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">202X — 202X</div>
+            <div>
+              <h3>Experiencia anterior</h3>
+              <p class="company">Empresa / organización</p>
+              <p>Explica el contexto, tu aportación y el impacto generado.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">202X — 202X</div>
+            <div>
+              <h3>Formación / proyecto relevante</h3>
+              <p class="company">Institución</p>
+              <p>Incluye estudios, certificaciones o experiencias que sean relevantes para el perfil que quieres proyectar.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section container">
+      <div class="section-heading reveal">
+        <span>03</span>
+        <h2>Proyectos destacados</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <span class="project-number">01</span>
+          <h3>Proyecto principal</h3>
+          <p>Una descripción breve del problema, solución y resultado.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a href="#" class="project-link">Ver proyecto ↗</a>
+        </article>
+        <article class="project-card reveal">
+          <span class="project-number">02</span>
+          <h3>Proyecto / caso de éxito</h3>
+          <p>Explica qué hiciste, qué herramientas utilizaste y qué aprendiste.</p>
+          <div class="tags"><span>Proyecto</span><span>UX</span><span>Datos</span></div>
+          <a href="#" class="project-link">Ver proyecto ↗</a>
+        </article>
+        <article class="project-card featured reveal">
+          <span class="project-number">03</span>
+          <h3>Tu proyecto más diferencial</h3>
+          <p>Reserva este espacio para el trabajo que mejor represente tu nivel profesional.</p>
+          <div class="tags"><span>Impacto</span><span>Innovación</span><span>Resultados</span></div>
+          <a href="#" class="project-link">Ver proyecto ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>04</span>
+          <h2>Habilidades</h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skills-intro reveal">
+            <p>Un perfil sólido no consiste en listar todo, sino en destacar las capacidades que mejor respaldan el tipo de oportunidades que buscas.</p>
+          </div>
+          <div class="skills-list reveal">
+            <div class="skill"><span>01</span><strong>Competencia profesional</strong><em>Avanzado</em></div>
+            <div class="skill"><span>02</span><strong>Competencia técnica</strong><em>Avanzado</em></div>
+            <div class="skill"><span>03</span><strong>Comunicación</strong><em>Avanzado</em></div>
+            <div class="skill"><span>04</span><strong>Resolución de problemas</strong><em>Avanzado</em></div>
+            <div class="skill"><span>05</span><strong>Trabajo en equipo</strong><em>Avanzado</em></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact container reveal">
+      <p class="eyebrow">05 · CONTACTO</p>
+      <h2>¿Hablamos?</h2>
+      <p>Si tienes una oportunidad, proyecto o simplemente quieres conectar, escríbeme.</p>
+      <a class="contact-email" href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a>
+      <div class="socials">
+        <a href="#" aria-label="LinkedIn">LinkedIn ↗</a>
+        <a href="#" aria-label="GitHub">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year"></span> Tu Nombre</span>
+      <span>Diseñado y desarrollado con HTML · CSS · JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
